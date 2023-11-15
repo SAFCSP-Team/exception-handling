@@ -14,7 +14,7 @@ This project learn to handle and manage errors or exceptional conditions that ca
 
 **Problem**
 
-Create own structure to organize your project using `package`.
+Include error handling to handle cases such as duplicate roll numbers or non-existent students.
 
 
 **Implementation**
