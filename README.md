@@ -14,10 +14,16 @@ This project learn to handle and manage errors or exceptional conditions that ca
 
 **Problem**
 
-Include error handling to handle cases such as duplicate roll numbers or non-existent students.
+Include error handling to handle cases such as duplicate id numbers or non-existent students.
+
 
 
 **Implementation**
+
+Before start, you should resolve [project one](https://github.com/nourabyte/Package-Project/blob/main/README.md) to complete exception hadling concept in your program.
+
+
+
 
 1. Create a package to organize your classes.
 2. Create `Student` class within the package, with attributes like name, id number, age, and grade. Include 
