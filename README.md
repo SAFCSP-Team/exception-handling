@@ -17,22 +17,12 @@ This project learn to handle and manage errors or exceptional conditions that ca
 Include error handling to handle cases such as duplicate id numbers or non-existent students.
 
 
-
 **Implementation**
 
 Before start, you should resolve [project one](https://github.com/nourabyte/Package-Project/blob/main/README.md) to complete exception hadling concept in your program.
 
-
-
-
-1. Create a package to organize your classes.
-2. Create `Student` class within the package, with attributes like name, id number, age, and grade. Include 
-   appropriate getters and setters.
-3. Create "StudentManagementSystem" class, which serves as the main entry point for the system.
-4. Implement methods to add and remove a student.
-6. Implement a method to calculate the average grade of all the students in the system.
-
-
+1. Include error handling to handle cases duplicate id numbers and non-existent students.
+   
 ```Java
 
 public class Main {
