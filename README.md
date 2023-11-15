@@ -21,8 +21,8 @@ Include error handling to handle cases such as duplicate id numbers or non-exist
 
 Before start, you should resolve [project one](https://github.com/nourabyte/Package-Project/blob/main/README.md) to complete exception hadling concept in your program.
 
-1. Include error handling to handle cases duplicate id numbers and non-existent students.
-   
+1. resolve duplicate id numbers and non-existent students using exception handling.
+
 ```Java
 
 public class Main {
