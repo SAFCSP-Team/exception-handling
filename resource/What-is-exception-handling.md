@@ -10,12 +10,11 @@ indicating that something has gone wrong.
 
 ### Example
 
-* Exception handling using try-catch
 ```java
  class Main {
   public static void main(String[] args) {
     try {
-      // code that generate exception
+      /* code that generate exception */
       int divideByZero = 5 / 0;
       System.out.println("Rest of code in try block");
     }
