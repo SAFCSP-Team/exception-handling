@@ -19,7 +19,7 @@ Include error handling to handle cases such as duplicate id numbers or non-exist
 
 **Implementation**
 
-Before start, you should resolve [project one](https://github.com/nourabyte/Package-Project/blob/main/README.md) to complete exception hadling concept in your program.
+Before start, you should resolve [project one](https://github.com/nourabyte/Package-Project/blob/main/README.md) to complete exception handling concept in your program.
 
 1. resolve duplicate id numbers and non-existent students using exception handling.
 
