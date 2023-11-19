@@ -1,6 +1,6 @@
 ## What is Exception Handling
 
-> unexpected event that occurs while executing the program, that disturbs the normal flow of the code.
+> Exception is an unexpected event that occurs while executing the program, that disturbs the normal flow of the code.
 
 ### Concept
 
