@@ -1,8 +1,8 @@
 # Exception-Handling
 
-**Objectives**
+**Objective**
 
-This project learn to **handle and manage** errors or exceptional conditions that can occur during the execution of a program. 
+In this project we will learn to **handle and manage** errors or exceptional conditions that can occur during the execution of a program. 
 
 **Concepts**
 
@@ -14,12 +14,11 @@ This project learn to **handle and manage** errors or exceptional conditions tha
 
 **Problem**
 
-Include error handling to handle cases such as duplicate id numbers or non-existent students.
-
+Using the provided project, find the exception that cause the program to fail and handl it.
 
 **Implementation**
 
-Before start, you should `resolve` [project one](https://github.com/nourabyte/Package-Project/blob/main/README.md) to add exception handling concept in your program.
+Before starting, you must `resolve` [project one](https://github.com/nourabyte/Package-Project/blob/main/README.md) and use it to add exception handling concept.
 
 1. resolve duplicate id numbers and non-existent students using exception handling.
 
