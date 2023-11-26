@@ -8,8 +8,8 @@ In this project we will learn to **handle and manage** errors or exceptional con
 
 | Concept   |      Resources      |
 |----------|:-------------:|
-|Concept of Exception Handling |  [What is an Exception Handling](https://github.com/nourabyte/Exception-Handling/blob/main/resource/What-is-exception-handling.md) |
-|Tutorial for Exception Handling    |    [Exception Handling Using try catch](https://www.youtube.com/watch?v=osEjmECD8bI)  |
+| What is an Exception Handling | [Exception Handling Concept](https://github.com/nourabyte/Exception-Handling/blob/main/resource/What-is-exception-handling.md) |
+| Exception Handling Using try catch | [Exception Handling (Tutorial)](https://www.youtube.com/watch?v=osEjmECD8bI)  |
 
 
 **Problem**
@@ -18,9 +18,9 @@ Using the provided project, find the exception that cause the program to fail an
 
 **Implementation**
 
-Before starting, you must `resolve` [project one](https://github.com/nourabyte/Package-Project/blob/main/README.md) and use it to add exception handling concept.
+> Before starting, you must `resolve` [project one](https://github.com/nourabyte/Package-Project/blob/main/README.md) and use it to add exception handling concept.
 
-1. resolve duplicate id numbers and non-existent students using exception handling.
+Resolve duplicate id numbers and non-existent students using exception handling.
 
 ```Java
 
@@ -28,14 +28,14 @@ public class Main {
     public static void main(String[] args) {
         StudentManagementSystem sms = new StudentManagementSystem();
         /* Adding students */
-        Student student1 = new Student("Khaled", 1, 20, 85.5);
-        sms.addStudent(student1);
+        Student firstStudent = new Student("Khaled", 1, 20, 85.5);
+        sms.addStudent(firstStudent);
 
-        Student student2 = new Student("Rema", 2, 21, 92.3);
-        sms.addStudent(student2);
+        Student secondStudent = new Student("Rema", 2, 21, 92.3);
+        sms.addStudent(secondStudent);
 
-        Student student3 = new Student("Noura", 3, 19, 78.9);
-        sms.addStudent(student3);
+        Student thirdStudent = new Student("Noura", 3, 19, 78.9);
+        sms.addStudent(thirdStudent);
          }
 }
 ```
