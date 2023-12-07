@@ -2,7 +2,7 @@
 
 **Objective**
 
-In this project we will learn to **handle and manage** errors or exceptional conditions that can occur during the execution of a program. 
+In this project, we will learn to **handle and manage** errors or exceptional conditions that can occur during the execution of a program. 
 
 **Concepts**
 
@@ -10,33 +10,27 @@ In this project we will learn to **handle and manage** errors or exceptional con
 |----------|:-------------:|
 | What is an Exception Handling | [Exception Handling Concept](https://github.com/nourabyte/Exception-Handling/blob/main/resource/What-is-exception-handling.md) |
 | Exception Handling Using try catch | [Exception Handling (Tutorial)](https://www.youtube.com/watch?v=osEjmECD8bI)  |
+|Exception Handling, ArrayIndexOutOfBoundsException|[ArrayIndexOutOfBoundsException](https://www.youtube.com/watch?v=YXHu5YLKCUM)|
 
 
 **Problem**
 
-Using the provided project, find the exception that cause the program to fail and handl it.
+Using the provided code snippet, find the issue in the program and handle it.
 
 **Implementation**
 
-> Before starting, you must `resolve` [project one](https://github.com/nourabyte/Package-Project/blob/main/README.md) and use it to add exception handling concept.
-
-Resolve duplicate id numbers and non-existent students using exception handling.
+The main class contain an error, handle it using try and catch to resolve it.
 
 ```Java
 
 public class Main {
     public static void main(String[] args) {
-        StudentManagementSystem sms = new StudentManagementSystem();
-        /* Adding students */
-        Student firstStudent = new Student("Khaled", 1, 20, 85.5);
-        sms.addStudent(firstStudent);
 
-        Student secondStudent = new Student("Rema", 2, 21, 92.3);
-        sms.addStudent(secondStudent);
+    int[] myNumbers = {1, 2, 3};
+    System.out.println(myNumbers[10]);
 
-        Student thirdStudent = new Student("Noura", 3, 19, 78.9);
-        sms.addStudent(thirdStudent);
-         }
+  }
 }
+
 ```
 
